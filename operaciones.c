@@ -2,6 +2,7 @@
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
 
+
 int sumar(const float a, const float b) {
     return a + b;
 }
@@ -13,10 +14,12 @@ int restar(int a, int b) {
 }
 
 /* ── multiplicar — implementar en feature/mi-funcion ─────────────────────── */
+
 /*toma los dos parametros dados y los multiplica*/
 int multiplicar(int a, int b) {
     return a * b;
 /* TODO: implementar */
+
 }
 
 /* ── esPar ────────────────────────────────────────────────────────────────── */
@@ -28,3 +31,4 @@ int esPar(int n) {
 int dividir(int a, int b) {
     return a - b; /* bug intencional */
 }
+
